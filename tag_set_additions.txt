@@ -1,0 +1,16 @@
+CCMS TODO:
+
+Expand tag set:
+
+{CMS_CONTENT_n}
+ -> {CMS_CONTENT_n.ID}
+ -> {CMS_CONTENT_n.NAME}
+ -> {CMS_CONTENT_n.DESCRIPTION}
+etc.. Have these rendered conditionally on the base tag.
+
+Can probably expand to add PAGE CMS tags as well...
+
+ABSTRACT TO A TAG MANAGER!!!!!
+
+
+RELATED CONTENT is also subnav

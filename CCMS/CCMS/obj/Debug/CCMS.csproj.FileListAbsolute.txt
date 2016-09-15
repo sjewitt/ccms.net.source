@@ -1,0 +1,5 @@
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll.config
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.pdb
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.pdb

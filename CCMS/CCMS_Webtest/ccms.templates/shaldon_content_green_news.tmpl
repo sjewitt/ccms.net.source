@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>{CMS_CORE_TITLE}</title>
+
+<!-- standard HTML metatags -->
+<meta http-equiv="Content-Type" content="text/html" />
+<meta name="description" content="{CMS_CORE_DESCRIPTION}" />
+<meta name="keywords" content="{CMS_CORE_KEYWORDS}" />
+<meta name="author" content="{CMS_CORE_AUTHOR}" />
+
+<!-- Dublin Core META tags -->
+<meta name="DC.Date" content="{CMS_CORE_DATE}" />
+
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Title" content="{CMS_CORE_TITLE}" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Creator" content="{CMS_CORE_AUTHOR}" />
+<meta name="DC.Description" content="{CMS_CORE_DESCRIPTION}" />
+<meta name="DC.Publisher" content="Shaldon Wildlife Trust" />
+
+<!-- CSS -->
+<link rel="stylesheet" href="/styles/styles.css" type="text/css" />
+<script type="text/javascript" src="/script/countdown.js"></script>
+</head>
+<body class="base" onload="runCoundown();">
+{CMS_EDITLINKS}
+<!-- outer table -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+
+    <td valign="bottom" align="left">
+      <!-- banner & topnav -->
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="350"><a href="/ccms.asp" title="Shaldon Wildlife Trust"><img src="/images/structure/logotype.jpg" alt="Shaldon Wildlife Trust" /></a></td>
+          <td width="450" valign="bottom" align="left">
+            <!-- topnav -->
+            
+            {CMS_CUSTOM_TOPNAV_GREEN}
+            
+            <!-- end topnav -->
+          </td>
+        </tr>
+      </table>
+      <!-- end banner & topnav -->
+    </td>
+  </tr>
+  <!-- write section-specific colours: -->
+
+  <tr class="bar_green">
+    <td height="20">
+    
+    <!-- subnav -->
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="50">&nbsp;<a href="defaultd41d.html?" style="font-weight:bold;" title="Shaldon Wildlife Trust">home</a></td>
+          <td>&nbsp;</td>
+
+          <td width="450" valign="bottom" align="left">
+            <table width="450" border="0" cellpadding="0" cellspacing="0" id="subnav">
+              <tr class="green">
+                                
+                {CMS_CUSTOM_L2NAV}
+                
+                <td>
+                  <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td>&nbsp;</td>
+                    </tr>
+                  </table>
+                </td><!-- pad the rest -->
+                <td>
+                  <table border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                      <td id="subnavpadding">&nbsp;</td>
+                    </tr>
+                  </table>
+                </td>
+              </tr>
+            </table>
+
+          </td>
+        </tr>
+      </table>
+      <!-- end subnav -->
+      
+    </td>
+  </tr>
+  <!-- write section-specific colours: -->
+  <tr class="content_green">
+    <td height="350">
+
+    <!-- main body -->
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- write section image silas 110409 250 class="hilite_green"-->
+          <td width="260" valign="top" id="lhimage" class="bar_green">
+          
+            {CMS_CONTENT_2}
+          
+          </td>
+          <td width="550" valign="top" align="right" >
+            <!-- content area -->
+
+            <table width="450" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="50" valign="top" class="tertiarynav"></td>
+              </tr>
+              <tr>
+                <td valign="top">
+                  <div class="contentarea">
+
+<!-- dynamic news output -->
+{CMS_NEWS_OUTPUT}
+<!-- end dynamic news output -->
+
+                  </div>
+                </td>
+              </tr>
+
+              
+            </table>
+            <!-- end content -->
+            
+          </td>
+        </tr>
+      </table>
+      <!-- end main body -->
+      
+    </td>
+  </tr>
+  <!-- write section-specific colours: -->
+
+  <tr class="bar_green">
+    <td height="20" align="left">
+        <form action="http://www.shaldonwildlifetrust.co.uk/search/search.asp" name="search" class="inline_search_form">
+        <!-- search form -->
+        <table border="0" cellpadding="0" cellspacing="0" width="800">
+            <tr>
+                <td align="left">
+                 
+                </td>
+                <td align="right">
+
+                    search for:&nbsp;
+                    <input type="text" name="zoom_query" size="20" value="" class="zoom_searchbox" />
+                    <input type="submit" value="go" class="zoom_button" />
+                </td>
+            </tr>
+        </table>
+        <!-- end search form -->
+        </form>
+
+    </td>
+  </tr>
+  
+  <tr>
+    <td height="70" align="left">
+
+      <!-- include footer -->
+      .      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="assoc_logo">
+            <a href="http://www.eaza.net/" target="_blank" title="European Association of Zoos and Aquaria link"><img src="images/structure/kl_EAZA4.gif" alt="European Association of Zoos and Aquaria link" /></a>
+          </td>
+          <td class="assoc_logo">
+            <a href="http://www.biaza.org.uk/" target="_blank" title="British and Irish Association of Zoos and Aquaria link"><img src="images/structure/iconBIAZA.jpg" alt="British and Irish Association of Zoos and Aquaria link" /></a>
+          </td>
+          <td class="assoc_logo">
+            <img src="images/structure/iconEEPfull.jpg" alt="European Endangered Species Programmes" />
+          </td>
+
+          
+          <td class="footer">
+            <!-- include footer -->
+            Shaldon Wildlife Trust, Ness Drive, Shaldon, Devon. TQ14 0HP. Telephone +44 1626 872234. <br />
+<strong>International breeding centre for rare and endangered species</strong><br />
+Registered charity number 291232. <a href="mailto:info@shaldonwildlifetrust.org.uk" title="email us">info@shaldonwildlifetrust.org.uk</a><br />
+
+            <!-- end include footer -->
+          </td>
+
+          
+          
+        </tr>
+      </table>
+.
+      <!-- end include footer -->
+      
+    </td>
+  </tr>
+</table>
+<!-- end outer table -->
+
+</body>
+
+<!-- Mirrored from www.shaldonwildlifetrust.co.uk/about.asp by HTTrack Website Copier/3.x [XR&CO'2006], Tue, 07 Jul 2009 07:11:41 GMT -->
+</html>
+

@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <!-- This website template was downloaded from http://www.nuviotemplates.com - visit us for more templates -->
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="robots" content="all,follow" />
+
+    <meta name="description" content="..." />
+    <meta name="keywords" content="..." />
+    
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="styles/demo/main.css" />
+    <!--[if lte IE 6]><link rel="stylesheet" type="text/css" href="styles/demo/main-msie.css" /><![endif]-->
+    <link rel="stylesheet" media="screen,projection" type="text/css" href="styles/demo/scheme.css" />
+    <link rel="stylesheet" media="print" type="text/css" href="styles/demo/print.css" />
+    
+	{CMS_EDITSCRIPTS}
+  
+  {CMS_LOGINSCRIPTS}
+
+    <title>CCMS Demo | {CMS_CORE_TITLE}</title>
+</head>
+
+<body>
+FISH
+{CMS_EDITLINKS}
+
+<div id="main">
+
+    <!-- Header -->
+    <div id="header">
+
+        <!-- Your logo -->
+        <h1 id="logo"><a href="/ccms.aspx">CCMS <span>Demo</span> site</a></h1>
+        <hr class="noscreen" />        
+
+        <!-- Your slogan -->
+        <div id="slogan">Your slogan here</div>
+        <hr class="noscreen" />        
+        
+        <!-- Hidden navigation -->
+        <p class="noscreen noprint"><em>Quick links: <a href="#content">content</a>, <a href="#nav">navigation</a>.</em></p>
+        <hr class="noscreen" />
+
+    </div> <!-- /header -->
+
+    <!-- Navigation -->
+    <div id="nav">
+        {CMS_DEMO_LHNAV}
+    <hr class="noscreen" /> 
+    </div> <!-- /nav -->
+
+    <!-- 2 columns (content + sidebar) -->
+    <div id="cols" class="box">
+
+        <!-- Content -->
+        <div id="content">
+        
+            <h2 id="content-title">{CMS_CORE_TITLE}</h2>
+            
+            <!-- Perex -->
+            <div id="perex" class="box">
+            
+                {CMS_DEMO_BREADCRUMB}
+                
+            </div> <!-- /perex -->
+
+            <hr class="noscreen" />
+            
+            <div id="content-in">
+
+                {CMS_CONTENT_1}
+
+            </div> <!-- /content-in -->
+               
+        </div> <!-- /content -->
+
+        <!-- Sidebar -->
+        <div id="aside">
+
+                   
+            <h4 id="aside-title">Related Content</h4>
+            
+            <div class="aside-in">
+                <div class="aside-box">
+
+					{CMS_DEMO_SUBNAV}
+                    {CMS_CONTENT_2}
+
+                
+                </div> 
+            </div> 
+
+   
+        </div>
+    
+    </div> <!-- /cols -->
+    
+    <div id="cols-bottom"></div>
+
+    <hr class="noscreen" />
+    
+    <!-- Footer -->
+    <div id="footer">
+
+        <!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment.php -->            
+        <p class="f-right"><a href="http://www.nuviotemplates.com/">Free web templates</a> presented by <a href="http://www.qartin.cz/">QARTIN</a>, sponsored by <a href="http://www.lekynainternetu.cz/">Leky</a></p>
+        <!-- Do you want remove this backlinks? Look at www.nuviotemplates.com/payment.php -->
+        
+        <p>&copy;&nbsp;2008 <a href="#">Your website name</a></p>
+
+    </div> <!-- /footer -->
+
+</div> <!-- /main -->
+
+
+{CMS_LOGINMASK}
+
+</body>
+</html>

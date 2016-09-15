@@ -1,0 +1,40 @@
+/* */ 
+*{border:0px;padding:0px;margin:0px;}
+
+#editbanner{font-family:arial,sans-serif;font-size:8pt; background-color:#dddddd;padding:5px;border:1px dashed black;z-index:1000;}
+#editbanner p{margin-top:0px;margin-bottom:2px;}
+a{text-decoration:none;}
+a:hover{text-decoration:underline;} 
+.editoption a{text-decoration:none;}
+.editoption a:hover{text-decoration:underline;}
+#contentlist ul{padding-left:0px;}
+#contentlist li{list-style-type:none;}
+.active{background-image:url("/ccms_asp/editor/images/active-small.gif");background-repeat:no-repeat;padding-left:18px;}
+.pending{background-image:url("/ccms_asp/editor/images/pending-small.gif");background-repeat:no-repeat;padding-left:18px;}
+.atwork{background-image:url("/ccms_asp/editor/images/atwork-small.gif");background-repeat:no-repeat;padding-left:18px;}
+.rejected{background-image:url("/ccms_asp/editor/images/rejected-small.gif");background-repeat:no-repeat;padding-left:18px;}
+form.editdropdown{font-family:arial,sans-serif;font-size:8pt; }
+textarea.editor{width:350px;}     
+
+/* LOGIN FORM */
+#loginform{margin-left:auto;margin-right:auto;width:300px;padding:30px;margin-top:50px;margin-bottom:50px;border:1px solid black;}
+#loginform h1{margin-top:0px;font-size:1.4em;}
+#loginform .error{color:red;}
+
+/* EDITOR POPUP - COMMON */
+
+.ccmseditortitle{color:#808080;}
+.strip{background-color:#D5ABDB;padding:5px;}
+.pure-u h1{color:#404040;padding-left:10px;}
+
+#container{}/*padding:5px;margin-left:auto;margin-right:auto;border:1px solid black;margin:20px;}*/ 
+#editor_content{width:100%;padding:0px;margin:0px;}
+#editor_content h1{padding:5px;margin-top:0px;font-size:1.4em;}
+#editor_content h2{padding:5px;margin-top:10px;font-size:1.2em;}
+
+
+tr.header{background-color:#aaa;}
+tr.odd{background-color:#eee;}
+tr.even{background-color:#ddd;}
+td.header{padding:5px;font-weight:bold;}
+td{padding-left:5px;padding-right:5px;}

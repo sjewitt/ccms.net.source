@@ -1,0 +1,36 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="editor.master.cs" Inherits="ccms.editor" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+
+    <link rel="Stylesheet" href="styles/editstyles.css" />
+    <script src="Scripts/editscripts.js" type="text/javascript"></script>
+    <script type="text/javascript" src="scripts/jquery-1.10.2.js"></script> 
+    <link rel="stylesheet" href="styles/pure-min.css" />
+    <asp:ContentPlaceHolder ID="onloadJavascripts" runat="server"></asp:ContentPlaceHolder>
+
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <title runat="server"></title>
+</head>
+<body>
+    <div id="container">
+    <!-- start header banner -->
+      <div class="pure-g strip" id="header">
+        <div class="pure-u">
+            <h1 runat="server">CCMS <span class="ccmseditortitle"><%=Page.Title %></span></h1>
+        </div>
+      </div>
+      <!-- end header banner -->
+
+      <!-- start editor form -->
+    <form id="form1" runat="server" class="pure-form">
+        <asp:ContentPlaceHolder ID="EditActionPlaceholder" runat="server"></asp:ContentPlaceHolder>
+        <!-- end editor form -->
+
+    </form>
+    </div>
+</body>
+</html>

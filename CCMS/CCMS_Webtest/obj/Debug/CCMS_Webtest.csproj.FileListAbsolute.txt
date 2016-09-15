@@ -1,0 +1,7 @@
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\bin\CCMS_Webtest.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\bin\CCMS_Webtest.pdb
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\bin\CCMS.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\bin\CCMS.pdb
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\obj\Debug\CCMS_Webtest.csprojResolveAssemblyReference.cache
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\obj\Debug\CCMS_Webtest.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_Webtest\obj\Debug\CCMS_Webtest.pdb

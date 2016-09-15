@@ -1,0 +1,35 @@
+<html>
+<head>
+  <meta name="description" value="{CMS_CORE_DESCRIPTION}" />
+  <meta name="keywords" value="{CMS_CORE_KEYWORDS}" />
+  
+  <title>{CMS_CORE_TITLE}</title>
+  <link rel="stylesheet" type="text/css" href="/styles/styles.css" />
+</head>
+
+<body>
+{CMS_EDITLINKS}
+<table border="1">
+  <tr>
+    <td width="200" valign="top"><span style="font-size:24pt;"><a href="/ccms.aspx" title="Home">CCMS Demo</a></span></td>
+    <td colspan="2" valign="top"><span style="font-size:18pt;">A Basic template</span></td>
+  </tr>
+  <tr>
+    <td valign="top">
+      <p>children:</p>
+      {CMS_DEMO_LHNAV}
+    </td>
+    <td width="450" valign="top">
+      <h2>{CMS_CORE_LINKTEXT}</h2>
+      
+      {CMS_CONTENT_1}
+    
+    </td>
+    <td width="200" valign="top">
+      <h2>Related content</h2>
+      {CMS_CONTENT_2}
+    </td>
+  </tr>
+</table>
+</body>
+</html>

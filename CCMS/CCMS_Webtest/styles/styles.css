@@ -1,0 +1,104 @@
+body{font-family:verdana,arial,sans-serif;}
+a{font-family:verdana,arial,sans-serif;text-decoration:none;color:#6b2844;}
+a:hover{font-family:verdana,arial,sans-serif;text-decoration:underline;color:#6b2844;}
+td{font-size:8pt;}/*0.7em*/
+img{border:none;}
+p{margin-top:10px;margin-bottom:10px;}
+table{border:none;padding:0px;margin:0px;border-spacing:none;}
+.title{font-size:18pt;}/*1.3em*/
+/* Home page stuff */
+.title_wrapper{height:27px;}
+.title_logos{float:right;text-align:right;}
+.title_with_logo{float:left;}
+.home-slug{width:100px;height:70px;background-image:url(/images/greytrans.gif);border:1px solid #e3e6f2;}
+.home-slug-nobg{width:100px;height:70px;border:1px solid #e3e6f2;}
+
+.date{font-family:verdana,arial,sans-serif;color:#666666;}
+.background{background-image:url("/images/home_back_grass.jpg");background-repeat:no-repeat;}
+.topnav_on{ background-color:#d0e682;}
+.heading{ font-size:12pt; font-weight:bold;}/*0.7em;*/
+#subnavpadding{width:100%;border:1px solid black;}
+#subnav tr td{border:0px solid;height:20px;text-align:left;padding-left:5px;padding-top:0px;padding-bottom:0px;padding-right:10px;} */
+#subnav tr td .hilite_green{background-color:#a5d004;}
+#subnav tr td .hilite_green a{color:#a5d004;}
+#subnav tr td .hilite_blue{background-color:#a5d004;font-weight:bold;}
+#subnav tr td .hilite_brown{background-color:#a5d004;font-weight:bold;}
+
+/*dynamic colours:*/
+.bar_home{background-color:#e3e6f2;}
+/*.bar_home a{font-weight:bold;color:#000256;}*/
+.content_home{ background-color:#ffffff;}
+.bar_green{background-color:#ddfb6b;}
+.bar_green a{color:#006A00;}
+.bar_green img{border:1px solid #a5d004;margin:5px;}
+.bar_green_image{background-image:url('/images/logonotype.gif');background-position:bottom center;background-repeat:no-repeat;background-color:#ddfb6b;}
+.content_green{background-color:#f3feca;}
+.hilite_green{ background-color:#a5d004;}
+.bar_blue{ background-color:#e3e6f2;}
+.bar_blue a{color:#000256;}
+.bar_blue img{border:1px solid #bcbcff;margin:5px;}
+.bar_blue_image{ background-image:url('/images/logonotype.gif');background-position:bottom center;background-repeat:no-repeat;background-color:#e3e6f2;}
+.content_blue{ background-color:#f2f4f9;}
+.hilite_blue{background-color:#bcbcff;}
+.bar_brown{background-color:#e8e985;}
+.bar_brown a{color:#503A0C;}
+.bar_brown img{border:1px solid #b6b627;margin:5px;}
+.bar_brown_image{background-image:url('/images/logonotype.gif');background-position:bottom center;background-repeat:no-repeat;background-color:#e8e985;}
+.content_brown{background-color:#f9f9db;}
+.hilite_brown{ background-color:#b6b627;}
+.inline_search_form{height:22px;margin-bottom:0px;}
+#lhimage{height:413px;}
+
+.content_green .contentarea a{color:#006A00;}
+.content_blue .contentarea a{color:#000256;}
+.content_brown .contentarea a{color:#503A0C;}
+.content_home .contentarea a{color:#000256;}
+
+.contentarea h1{margin-top:0px;font-size:17pt;font-weight:normal;font-family:times,serif;letter-spacing:2px;color:#666;}
+.contentarea h2{margin-top:10px;margin-bottom:5px;font-size:11pt;font-weight:normal;font-family:verdana,arial,sans-serif;color:#444;}
+.contentarea h3{}
+.contentarea h4{}
+
+/* tables */
+.species{width:450px;}
+.species_cell_title{ width:120px; vertical-align:top;}
+.species_cell_detail{ width:330px; vertical-align:top;}
+
+/** level 3 nav colours */
+.l3_hilite_green{color:#a5d004;}
+.l3_hilite_green:hover{font-family:verdana,arial,sans-serif;text-decoration:underline;color:#a5d004;}
+.l3_hilite_blue{color:#bcbcff;}
+.l3_hilite_blue:hover{font-family:verdana, arial, sans-serif;text-decoration:underline;	 color:#bcbcff;}
+
+.l3_hilite_brown{color:#b6b627;}
+.l3_hilite_brown:hover{font-family:verdana, arial, sans-serif;text-decoration:underline;	 color:#b6b627;}
+
+/*table cell stuff*/
+.footer{vertical-align:center;text-align:center;width:582px;}
+.assoc_logo{width:65px;}
+.content{ background-color:#f6f6dc;}
+.contentarea{text-align:left;}
+.contentarea a{font-weight:bold;}
+.paginator{font-weight:bold;margin-left:10px;}
+.footer{font-size:8pt;}/*0.7em*/
+.tertiarynav{text-align:left;}
+#anniversary{padding-left:5px;}
+#anniversary a{font-weight:bold;}
+#SlideShow{width:250px;height:400px;overflow:hidden;border-right:1px solid #bcbcff;}
+
+/** search output WRENSOFT */
+.highlight { background:#FFFF40; }
+.searchheading { font-weight:bold; }
+.summary { font-style:italic; } 
+.results {}
+.category { color:#999999; }
+.description {color:#008000; }
+.context {}
+.infoline {font-style:normal; color:#808080;}
+.sorting { text-align:right; }
+.result_title {}
+
+.zoom_searchform {}
+.zoom_options {}
+input.zoom_button {width:35px;height:22px;position:relative;top:0px;}
+input.zoom_searchbox {position:relative;top:0px;}

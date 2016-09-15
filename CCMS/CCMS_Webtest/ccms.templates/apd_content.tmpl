@@ -1,0 +1,76 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+  <head>
+  <meta http-equiv="content-type" content="text/html; charset=windows-1250" />
+    <script type="text/javascript" src="/ccms/editor/script/edit.js"></script>
+    <script language="javascript" type="text/javascript" src="/script/rickscripts.js"></script>
+    <meta name="keywords"       content="{CMS_CORE_KEYWORDS}" />
+    <meta name="description"    content="{CMS_CORE_DESCRIPTION}" />
+    <meta name="author"         content="{CMS_CORE_AUTHOR}" />
+  <link href="/styles/rickstyles.css" rel="stylesheet" type="text/css" />
+  <title>{CMS_CORE_TITLE}</title>
+  </head>
+  <body>
+  
+<script language="javascript" type="text/javascript">
+//<![CDATA[
+	window.onload = function(){
+		sfHover();
+	}	
+//]]>
+</script>
+  
+      {CMS_EDITLINKS}
+  
+    <!-- begin outer wrapper -->
+    <div id="outer_wrapper">
+        <div id="header_wrapper">
+            <a href="/" title="Home">
+                <img src="/images/logo2.png" alt="logo" />
+            </a>
+            <div id="header_nav">
+                <ul>
+                    <li><a href="/" title="link">home</a></li>
+                    <li><a href="#" onclick="popup('contact.pl');" title="Contact Us">Contact Us</a></li>
+                    <li class="last"><a href="http://www.streetmap.co.uk/map.srf?X=356316&amp;Y=183607&amp;A=Y&amp;Z=126" title="Find us" target="_blank">find us</a></li>
+                </ul>
+                <div id="search">
+                    <h1>search:</h1>
+                    <form name="search" method="get" action="/search.pl">
+                        <input type="text" name="qt" value="" />
+                        <input type="image" src="/images/structure/search.gif" value="go" />
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div id="topnav">
+            {CMS_CUSTOM_RICKTOPNAV}
+        </div>
+        
+        <div id="content_banner_wrapper">
+            <div id="content_banner_image">
+               {CMS_CONTENT_3}
+            </div>
+            <div id="content_banner_links">
+                {CMS_RHNAV}
+                <ul>
+                    <li><a href="#" onclick="popup('contact.pl');" title="Contact Us">Contact Us</a></li>
+                    <li><a href="http://www.streetmap.co.uk/map.srf?X=356316&amp;Y=183607&amp;A=Y&amp;Z=126" title="Find us" target="_blank">find us</a></li>
+                </ul>
+            </div>
+        </div>
+        <div id="content_wrapper">
+            <h1>{CMS_CORE_LINKTEXT}</h1>
+            {CMS_CONTENT_2}
+        </div>
+        <div id="footer_separator">
+            
+        </div>
+        <div id="footer_links">
+            Advanced property Developments Ltd | Registered in England and Wales | Company Number 05378010<br />
+            All content &copy; APD Ltd 2009. 
+        </div>
+    </div>
+    <!-- end outer wrapper -->
+  </body>
+</html>

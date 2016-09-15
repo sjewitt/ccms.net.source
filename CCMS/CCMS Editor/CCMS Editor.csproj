@@ -1,0 +1,296 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D84CDCA2-5186-4A1D-A9ED-D0B6872A31EE}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>ccms</RootNamespace>
+    <AssemblyName>CCMS Editor</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+    <Reference Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ORIGeditor_viewtree.aspx" />
+    <Content Include="editor_assign_content.aspx" />
+    <Content Include="ORIGeditor_assign_content.aspx" />
+    <Content Include="editor_content_properties.aspx" />
+    <Content Include="editor_create_content.aspx" />
+    <Content Include="editor_create_page.aspx" />
+    <Content Include="editor_edit_content.aspx" />
+    <Content Include="editor_remove_content.aspx" />
+    <Content Include="editor_TEMPLATE.aspx" />
+    <Content Include="editor_viewtree.aspx" />
+    <Content Include="Scripts\common_functions.js" />
+    <Content Include="Scripts\datepicker\calendar.css" />
+    <Content Include="Scripts\datepicker\calendar.js" />
+    <Content Include="Scripts\dom_managenav.aspx" />
+    <Content Include="Scripts\editscripts.js" />
+    <Content Include="Scripts\jquery-1.10.2-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-ui-1.10.4.js" />
+    <Content Include="Scripts\jquery-ui-1.10.4.min.js" />
+    <Content Include="Scripts\jquery.base64.js" />
+    <Content Include="Scripts\loginmask.js" />
+    <Content Include="Scripts\XXXXcommon_functions.js" />
+    <Content Include="styles\datepicker\calendar.css" />
+    <Content Include="styles\editstyles.css" />
+    <Content Include="Scripts\jquery-1.4.1-vsdoc.js" />
+    <Content Include="Scripts\jquery-1.4.1.js" />
+    <Content Include="Scripts\jquery-1.4.1.min.js" />
+    <Content Include="styles\pure-min.css" />
+    <Content Include="tinymce4.0\license.txt" />
+    <Content Include="tinymce4.0\plugins\advlist\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\anchor\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\autolink\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\autoresize\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\autosave\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\bbcode\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\charmap\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\code\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\contextmenu\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\directionality\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-cool.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-cry.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-embarassed.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-foot-in-mouth.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-frown.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-innocent.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-kiss.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-laughing.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-money-mouth.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-sealed.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-smile.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-surprised.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-tongue-out.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-undecided.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-wink.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\img\smiley-yell.gif" />
+    <Content Include="tinymce4.0\plugins\emoticons\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\example\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\example_dependency\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\fullpage\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\fullscreen\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\hr\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\image\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\importcss\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\insertdatetime\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\layer\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\legacyoutput\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\link\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\lists\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\media\moxieplayer.swf" />
+    <Content Include="tinymce4.0\plugins\media\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\nonbreaking\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\noneditable\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\pagebreak\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\paste\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\preview\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\print\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\save\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\searchreplace\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\spellchecker\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\tabfocus\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\table\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\template\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\textcolor\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\visualblocks\css\visualblocks.css" />
+    <Content Include="tinymce4.0\plugins\visualblocks\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\visualchars\plugin.min.js" />
+    <Content Include="tinymce4.0\plugins\wordcount\plugin.min.js" />
+    <Content Include="tinymce4.0\skins\lightgray\content.inline.min.css" />
+    <Content Include="tinymce4.0\skins\lightgray\content.min.css" />
+    <Content Include="tinymce4.0\skins\lightgray\img\anchor.gif" />
+    <Content Include="tinymce4.0\skins\lightgray\img\loader.gif" />
+    <Content Include="tinymce4.0\skins\lightgray\img\object.gif" />
+    <Content Include="tinymce4.0\skins\lightgray\img\trans.gif" />
+    <Content Include="tinymce4.0\skins\lightgray\img\wline.gif" />
+    <Content Include="tinymce4.0\skins\lightgray\skin.ie7.min.css" />
+    <Content Include="tinymce4.0\skins\lightgray\skin.min.css" />
+    <Content Include="tinymce4.0\themes\modern\theme.min.js" />
+    <Content Include="tinymce4.0\tinymce.min.js" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+    <Content Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ORIGeditor_viewtree.aspx.cs">
+      <DependentUpon>ORIGeditor_viewtree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ORIGeditor_viewtree.aspx.designer.cs">
+      <DependentUpon>ORIGeditor_viewtree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_assign_content.aspx.cs">
+      <DependentUpon>editor_assign_content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_assign_content.aspx.designer.cs">
+      <DependentUpon>editor_assign_content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor.Master.cs">
+      <DependentUpon>editor.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor.Master.designer.cs">
+      <DependentUpon>editor.Master</DependentUpon>
+    </Compile>
+    <Compile Include="ORIGeditor_assign_content.aspx.cs">
+      <DependentUpon>ORIGeditor_assign_content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ORIGeditor_assign_content.aspx.designer.cs">
+      <DependentUpon>ORIGeditor_assign_content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_content_properties.aspx.cs">
+      <DependentUpon>editor_content_properties.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_content_properties.aspx.designer.cs">
+      <DependentUpon>editor_content_properties.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_create_content.aspx.cs">
+      <DependentUpon>editor_create_content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_create_content.aspx.designer.cs">
+      <DependentUpon>editor_create_content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_create_page.aspx.cs">
+      <DependentUpon>editor_create_page.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_create_page.aspx.designer.cs">
+      <DependentUpon>editor_create_page.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_edit_content.aspx.cs">
+      <DependentUpon>editor_edit_content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_edit_content.aspx.designer.cs">
+      <DependentUpon>editor_edit_content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_remove_content.aspx.cs">
+      <DependentUpon>editor_remove_content.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_remove_content.aspx.designer.cs">
+      <DependentUpon>editor_remove_content.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_TEMPLATE.aspx.cs">
+      <DependentUpon>editor_TEMPLATE.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_TEMPLATE.aspx.designer.cs">
+      <DependentUpon>editor_TEMPLATE.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="editor_viewtree.aspx.cs">
+      <DependentUpon>editor_viewtree.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="editor_viewtree.aspx.designer.cs">
+      <DependentUpon>editor_viewtree.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Scripts\dom_managenav.aspx.cs">
+      <DependentUpon>dom_managenav.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Scripts\dom_managenav.aspx.designer.cs">
+      <DependentUpon>dom_managenav.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\CCMS\CCMS.csproj">
+      <Project>{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}</Project>
+      <Name>CCMS</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="editor.Master" />
+    <None Include="tinymce4.0\langs\readme.md" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\readme.md" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce-small.eot" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce-small.svg" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce-small.ttf" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce-small.woff" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce.eot" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce.svg" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce.ttf" />
+    <Content Include="tinymce4.0\skins\lightgray\fonts\tinymce.woff" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>1404</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

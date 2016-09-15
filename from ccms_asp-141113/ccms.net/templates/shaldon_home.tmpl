@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+<head>
+<title>{CMS_CORE_TITLE}</title>
+
+<!-- standard HTML metatags -->
+<meta http-equiv="Content-Type" content="text/html" />
+<meta name="description" content="{CMS_CORE_DESCRIPTION}" />
+<meta name="keywords" content="{CMS_CORE_KEYWORDS}" />
+<meta name="author" content="{CMS_CORE_AUTHOR}" />
+
+<!-- Dublin Core META tags -->
+<meta name="DC.Date" content="{CMS_CORE_DATE}" />
+
+<meta name="DC.Format" content="text/html" />
+<meta name="DC.Title" content="{CMS_CORE_TITLE}" />
+<meta name="DC.Language" content="en" />
+<meta name="DC.Creator" content="{CMS_CORE_AUTHOR}" />
+<meta name="DC.Description" content="{CMS_CORE_DESCRIPTION}" />
+<meta name="DC.Publisher" content="Shaldon Wildlife Trust" />
+
+<script type="text/javascript">
+var slideShowSpeed = 5000;
+var crossFadeDuration = 3;
+var Pic = new Array();
+
+Pic[0] = {url:'/images/rotator_capuchin_01.jpg',alt:'Capuchins'};
+Pic[1] = {url:'/images/lh_boobook1.jpg',alt:'Boobook Owl'};
+Pic[2] = {url:'/images/lh_bearded_dragon2.jpg',alt:'Bearded Dragon'};
+Pic[3] = {url:'/images/rotator_gardens_001.jpg',alt:'The Gardens'};
+Pic[4] = {url:'/images/lh_gentle_lemur.jpg',alt:'Gentle Lemur'};
+Pic[5] = {url:'/images/lh_golden_poison_dart.jpg',alt:'Golden Poison Dart Frog'};
+Pic[6] = {url:'/images/lh_macaw2.jpg',alt:'Macaw'};
+Pic[7] = {url:'/images/rotator_gardens_002.jpg',alt:'The Gardens'};
+Pic[8] = {url:'/images/rotator_meerkat_018.jpg',alt:'Meerkats'};
+Pic[9] = {url:'/images/rotator_pied_tamarin_009.jpg',alt:'Pied Tamarin'};
+Pic[10] = {url:'/images/rotator_red_titi_monkey_003.jpg',alt:'Red Titi Monkey'};
+/*
+//halloween
+Pic[0] = {url:'/images/rotator_halloween1.jpg',alt:'Halloween!'};
+Pic[1] = {url:'/images/rotator_halloween2.jpg',alt:'Halloween!'};
+Pic[2] = {url:'/images/rotator_halloween3.jpg',alt:'Halloween!'};
+Pic[3] = {url:'/images/rotator_halloween4.jpg',alt:'Halloween!'};
+*/
+var t;
+var j = 0;
+var p = Pic.length;
+
+var preLoad = new Array();
+for (i = 0; i < p; i++){
+   preLoad[i] = new Image();
+   preLoad[i].src = Pic[i].url;
+   preLoad[i].alt = Pic[i].alt;
+}
+
+function runSlideShow(){
+   if (document.all){
+      document.images.SlideShow.style.filter="blendTrans(duration=2)";
+      document.images.SlideShow.style.filter="blendTrans(duration=crossFadeDuration)";
+      document.images.SlideShow.filters.blendTrans.Apply();      
+   }
+   document.images.SlideShow.src = preLoad[j].src;
+   document.images.SlideShow.alt = preLoad[j].alt;
+   if (document.all){
+      document.images.SlideShow.filters.blendTrans.Play();
+   }
+   j = j + 1;
+   if (j > (p-1)) j=0;
+   t = setTimeout('runSlideShow()', slideShowSpeed);
+}
+</script>
+
+
+
+<!-- CSS -->
+<link rel="stylesheet" href="/styles/styles.css" type="text/css" />
+<script type="text/javascript" src="/script/countdown.js"></script>
+</head>
+<body class="base" onload="runCoundown();runSlideShow();"">
+{CMS_EDITLINKS}
+<div id="msg"></div>
+<!-- outer table -->
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+  <tr>
+
+    <td valign="bottom" align="left">
+      <!-- banner & topnav -->
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td width="350"><img src="/images/structure/logotype.jpg" alt="Shaldon Wildlife Trust (click for homepage)" border="0" /></td>
+          <td width="450" valign="bottom" align="left">
+            <!-- topnav -->
+            
+            {CMS_CUSTOM_TOPNAV_HOME}
+
+            <!-- end topnav -->
+          </td>
+        </tr>
+      </table>
+      <!-- end banner & topnav -->
+    </td>
+  </tr>
+  
+  <!-- write section-specific colours: -->
+  <tr class="bar_home">
+    <td height="20">
+    
+    <!-- subnav -->
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <!-- td width="50"> </td -->
+          <td></td>
+          <td width="450" valign="bottom" align="left">
+
+            <table width="450" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td> </td></tr></table></td><!-- pad the rest --><td><table width="100%" border="0" cellpadding="0" cellspacing="0"><tr><td> </td></tr></table></td>
+              </tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+      <!-- end subnav -->
+
+    </td>
+  </tr>
+  <!-- write section-specific colours: -->
+  <tr class="content_home">
+    <td height="350">
+    <!-- main body -->
+      <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+
+          <!-- write section image -->
+          <td width="250" valign="top" class="bar_home"><div id='SlideShow'><img  name='SlideShow' src="/images/ringtail.jpg" alt="image 1" /></div></td>
+          <td width="550" valign="top" align="right" class="background">
+            <!-- content area -->
+            <table width="450" border="0" cellpadding="0" cellspacing="0">
+              <tr>
+                <td height="50" valign="top" ></td>
+              </tr>
+              <tr>
+
+                <td class="contentarea">
+               
+<div class="title_wrapper">
+  <div class="title_with_logo">
+    <img src="/images/titles/welcome.gif" alt="Shaldon Wildlife Trust" />
+  </div>
+  <div class="title_logos">
+    <a href="https://www.charitychoice.co.uk/donation.asp?ref=488" title="Make a donation"><img src="/images/makeadonation.gif" alt="Make a donation" /></a>
+    <a href="http://www.facebook.com/pages/Teignmouth-United-Kingdom/Shaldon-Wildlife-Trust/144118418886?ref=ts" title="Visit us on Facebook"><img src="/images/structure/facebook.gif" alt="Visit us on Facebook" /></a>
+
+    <a href="http://twitter.com/ShaldonZoo1" title="Visit us on Twitter"><img src="/images/structure/twitter.gif" alt="Visit us on Twitter" /></a>
+  </div>
+</div>
+
+{CMS_CONTENT_1}
+
+<table width="450" border="0" cellpadding="3" cellspacing="0">
+  <tr> 
+    <td class="home-slug-nobg" valign="top">
+    <b>Opening Times Summer</b><br />
+        
+        {CMS_CONTENT_2}
+        
+        <!-- 7 days a week<br />
+        1000 - 1800<br /> -->
+    </td>
+    
+    <td></td>
+
+    
+    <td class="home-slug-nobg" valign="top">
+    <b>Latest News</b><br />
+    
+    {CMS_LATEST_NEWS_HOME}
+        
+    </td>
+    
+    <td></td>
+    
+    <td valign="top" class="home-slug-nobg">
+    <b>Opening Times Winter</b><br />
+
+    {CMS_CONTENT_3}
+
+    ,<!-- 7 days a week<br />
+      1100 - 1600<br / --> 
+    </td>
+  </tr>
+</table>
+
+<br />
+<table width="450" border="0" cellpadding="3" cellspacing="0">
+  <tr> 
+    <td class="home-slug" valign="top">
+    <b>Gift Aid* Prices</b><br />
+
+    {CMS_CONTENT_4}
+
+    <!-- Adults: Â£5.75<br />
+    Kids : Â£3.25<br />
+    OAPs/students: Â£4.50 -->
+    </td>
+    <td></td>
+    <td class="home-slug" valign="top">
+    <b>Family ticket*:</b><br />
+    
+    {CMS_CONTENT_5}
+    
+    <!-- br />
+
+    2 Adults<br />
+    2 Children:<br />
+    Â£14.75 -->
+    </td>
+    <td></td>
+    <td class="home-slug" valign="top">
+    <b>Directions:</b><br />
+    
+    {CMS_CONTENT_6}
+    
+    <!-- A379 Torquay to Teignmouth Rd.<br />
+
+    85 Bus to Ness Drive, Shaldon. --> 
+    </td>
+  </tr>
+  <tr>
+    <td colspan="3">* About <a href="help/help4d41d.html?">Gift Aid</a></td>
+  </tr>
+</table>
+                </td>
+              </tr>
+
+              
+            </table>
+            <!-- end content -->
+            
+          </td>
+        </tr>
+      </table>
+      <!-- end main body -->
+      
+    </td>
+  </tr>
+  <!-- write section-specific colours: -->
+
+  <tr class="bar_home">
+    <td height="20" align="left">
+        <form action="http://www.shaldonwildlifetrust.co.uk/search/search.asp" name="search" class="inline_search_form">
+        <!-- search form -->
+        <table border="0" cellpadding="0" cellspacing="0" width="800">
+            <tr>
+                <td align="right">
+                    search for:XXXXXXXX<input type="text" name="zoom_query" size="20" value="" class="zoom_searchbox" />
+                    <input type="submit" value="go" class="zoom_button" />
+                </td>
+            </tr>
+        </table>
+        <!-- end search form -->
+        </form>
+    </td>
+  </tr>
+
+  
+  <tr>
+    <td height="70" align="left">
+          
+        <!-- include footer -->
+              <table width="800" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+          <td class="assoc_logo">
+            <a href="http://www.eaza.net/" target="_blank" title="European Association of Zoos and Aquaria link"><img src="images/structure/kl_EAZA4.gif" alt="European Association of Zoos and Aquaria link" /></a>
+          </td>
+
+          <td class="assoc_logo">
+            <a href="http://www.biaza.org.uk/" target="_blank" title="British and Irish Association of Zoos and Aquaria link"><img src="images/structure/iconBIAZA.jpg" alt="British and Irish Association of Zoos and Aquaria link" /></a>
+          </td>
+          <td class="assoc_logo">
+            <img src="images/structure/iconEEPfull.jpg" alt="European Endangered Species Programmes" />
+          </td>
+          
+          <td class="footer">
+            <!-- include footer -->
+            Shaldon Wildlife Trust, Ness Drive, Shaldon, Devon. TQ14 0HP. Telephone +44 1626 872234. <br />
+
+<strong>International breeding centre for rare and endangered species</strong><br />
+Registered charity number 291232. <a href="mailto:info@shaldonwildlifetrust.org.uk" title="email us">info@shaldonwildlifetrust.org.uk</a><br />
+
+            <!-- end include footer -->
+          </td>
+        </tr>
+      </table>
+      <!-- end include footer -->
+    </td>
+  </tr>
+</table>
+<!-- end outer table -->
+</body>
+</html>

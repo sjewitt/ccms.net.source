@@ -1,0 +1,7 @@
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\bin\CCMS Editor.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\bin\CCMS Editor.pdb
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\bin\CCMS.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\bin\CCMS.pdb
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\obj\Debug\CCMS Editor.csprojResolveAssemblyReference.cache
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\obj\Debug\CCMS Editor.dll
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS Editor\obj\Debug\CCMS Editor.pdb

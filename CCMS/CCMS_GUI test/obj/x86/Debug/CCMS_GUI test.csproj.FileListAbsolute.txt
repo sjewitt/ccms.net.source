@@ -1,0 +1,11 @@
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\bin\Debug\CCMS_GUI test.exe.config
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\bin\Debug\CCMS_GUI test.exe
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\bin\Debug\CCMS_GUI test.pdb
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\bin\Debug\CCMS.dll
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\bin\Debug\CCMS.pdb
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\GUItest.Form1.resources
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI_test.Properties.Resources.resources
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.exe
+C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.pdb
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.csprojResolveAssemblyReference.cache
+C:\dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.csproj.GenerateResource.Cache
