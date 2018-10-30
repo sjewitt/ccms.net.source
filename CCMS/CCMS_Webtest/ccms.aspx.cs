@@ -69,7 +69,11 @@ namespace ccms
                             Response.Write(json);
                             break;
 
-                        
+                            /*
+                        case "raw":
+                            ContentInstance i = engine.contentManager.getActiveInstance(engine.contentManager.getContentItem(contentId))
+                            break;
+                        */
 
                     }
                 }

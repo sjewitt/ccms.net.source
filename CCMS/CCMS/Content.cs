@@ -13,7 +13,8 @@ namespace ccms
     {
         public Content()
         {
-
+            //constructor
+            string xx = "fish";
         }
 
         private string _name;

@@ -1,9 +1,27 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMS", "CCMS\CCMS.csproj", "{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}"
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "The Coven", "..\..\..\TheCoven - 2015\The Coven\", "{7F2B7ABE-FA05-4955-962C-8A04E41530B6}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.0"
+		Debug.AspNetCompiler.VirtualPath = "/The Coven"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\TheCoven - 2015\The Coven\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\The Coven\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/The Coven"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\TheCoven - 2015\The Coven\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\The Coven\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "51350"
+	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMS_GUI test", "CCMS_GUI test\CCMS_GUI test.csproj", "{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CCMS", "CCMS\CCMS.csproj", "{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +33,16 @@ Global
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Debug|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Release|Mixed Platforms.ActiveCfg = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Release|Mixed Platforms.Build.0 = Debug|Any CPU
+		{7F2B7ABE-FA05-4955-962C-8A04E41530B6}.Release|x86.ActiveCfg = Debug|Any CPU
 		{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}.Debug|Mixed Platforms.ActiveCfg = Debug|Any CPU
@@ -25,16 +53,6 @@ Global
 		{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}.Release|Mixed Platforms.ActiveCfg = Release|Any CPU
 		{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}.Release|Mixed Platforms.Build.0 = Release|Any CPU
 		{76DF1B45-4A23-481B-9CAD-C430DD8BFC0C}.Release|x86.ActiveCfg = Release|Any CPU
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Debug|Any CPU.ActiveCfg = Debug|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Debug|Mixed Platforms.ActiveCfg = Debug|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Debug|Mixed Platforms.Build.0 = Debug|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Debug|x86.ActiveCfg = Debug|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Debug|x86.Build.0 = Debug|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Release|Any CPU.ActiveCfg = Release|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Release|Mixed Platforms.ActiveCfg = Release|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Release|Mixed Platforms.Build.0 = Release|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Release|x86.ActiveCfg = Release|x86
-		{C2A896D4-8620-4F6F-804E-CDBFC7FB4EE4}.Release|x86.Build.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

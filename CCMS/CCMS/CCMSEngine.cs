@@ -36,7 +36,7 @@ namespace ccms
         {
             //set basepath for later use in UI:
             this.TemplateBasePath = TemplateBasePath;
-
+            
             /*
              initialise the various factories:
              */

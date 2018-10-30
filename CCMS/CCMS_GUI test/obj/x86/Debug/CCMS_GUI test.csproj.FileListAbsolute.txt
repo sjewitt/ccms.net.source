@@ -9,3 +9,6 @@ C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.exe
 C:\Dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.pdb
 C:\dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.csprojResolveAssemblyReference.cache
 C:\dev\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.csproj.GenerateResource.Cache
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS_GUI test\bin\Debug\CCMS_GUI test.exe.config
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.exe
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS_GUI test\obj\x86\Debug\CCMS_GUI test.pdb

@@ -3,3 +3,13 @@ C:\dev\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll
 C:\dev\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.pdb
 C:\dev\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.dll
 C:\dev\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.pdb
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll.config
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.pdb
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.dll
+D:\Dev\THECOVEN 2016\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.pdb
+D:\Dev\CCMS 2016\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll.config
+D:\Dev\CCMS 2016\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.dll
+D:\Dev\CCMS 2016\CCMS.NET - rebuild\CCMS\CCMS\bin\Debug\CCMS.pdb
+D:\Dev\CCMS 2016\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.dll
+D:\Dev\CCMS 2016\CCMS.NET - rebuild\CCMS\CCMS\obj\Debug\CCMS.pdb
